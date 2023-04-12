@@ -12,7 +12,7 @@ const connect = function () {
 
     console.log(`Im conected Now`);
     conn.write("Name: FEM");
-    setInterval(() => {conn.write("Move: up")}, 500)
+    //setInterval(() => {conn.write("Move: up")}, 500)
     //conn.write("Move: up");
    
     // code that does something when the connection is first established
@@ -27,5 +27,5 @@ const connect = function () {
 };
 module.exports = {
   connect
-}
+};
 
